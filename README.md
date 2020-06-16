@@ -75,7 +75,7 @@ Here you can see the different what you get if you install the add-on plugin
   - after successfully install go to ***bl-content / databases*** folder and open ***site.php*** file with a text editor (such as notepad). 
   - Search in the file the ***adminTheme*** string for and change its value to ***booty-dark-admin***
 - **Just one more thing!**
-  - You do not need to use the add-on plugin but recommended. To use the plugin you have to separately install and activate it. [Learn more about it...](https://github.com/JTWebTools/bludit-plugins/tree/master/booty-dark-admin)
+  - You do not need to use the add-on plugin but recommended. To use the plugin you have to separately install and activate it. [Learn more...](https://github.com/JTWebTools/booty-dark-admin-plugin)
 
 That's all. You have successfully installed the new administrator theme! Enjoy it! :)
 
