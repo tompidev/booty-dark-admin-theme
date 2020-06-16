@@ -1,11 +1,11 @@
 # Booty Dark Admin (Admin theme)
 ### What is Booty Dark Admin?
 
-Booty Dark Admin is an Admin Theme for Bludit flat file CMS.
+Booty Dark Admin is an Admin Theme for [Bludit Flat-file CMS](https://www.bludit.com/).
 
 Booty Dark Admin allows you to change individual elements of the admin sidebar and the Right Main pane.
 
-There is also an add-on plugin to help you to change individual elements of your new admin theme. This plugin is not necessary but recommended. [See comparison below.](https://github.com/JTWebTools/bludit-themes/tree/master/booty-dark-admin#comparison-of-settings)
+There is also an add-on plugin to help you to change individual elements of your new admin theme. This plugin is not necessary but recommended. [See comparison below](https://github.com/JTWebTools/booty-dark-admin-theme#comparison-of-settings).
 
 No other add-ons are required to use the template.
 
@@ -83,7 +83,7 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 
 ### Demo
 
-[Click here...](https://github.com/JTWebTools/bludit-themes/tree/master/booty-dark-admin/images)
+[Click here...](https://github.com/JTWebTools/booty-dark-admin-theme/tree/master/images)
 
 ------
 
@@ -91,7 +91,7 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 
 **Q:**	I have the package installed successfully but i can't see the new theme. Why?
 
-​	**A:**	You have to change the admin theme in your sites database. Plaese read the "[Installing and changing admin theme to Booty Dark Admin](https://github.com/JTWebTools/bludit-themes/tree/master/booty-dark-admin#installing-and-changing-admin-theme-to-booty-dark-admin)" section again.
+​	**A:**	You have to change the admin theme in your sites database. Plaese read the "[Installing and changing admin theme to Booty Dark Admin](https://github.com/JTWebTools/booty-dark-admin-theme#installing-and-changing-admin-theme-to-booty-dark-admin)" section again.
 
 **Q:**	How can i disable this theme?
 
@@ -106,5 +106,5 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 ### Is further development expected?
 
 Yes! I still have a lot of ideas waiting to be implemented. 
-To access future updates, [visit my GitHub releases](https://github.com/JTWebTools?tab=repositories) page or the [Bludit Plugins page](https://plugins.bludit.com/). 
+To access future updates, visit [my GitHub releases](https://github.com/JTWebTools?tab=repositories) page or the [Bludit Plugins page](https://plugins.bludit.com/). 
 Check the current release of Booty Dark Admin on the Plugins page or on plugin settings page.
