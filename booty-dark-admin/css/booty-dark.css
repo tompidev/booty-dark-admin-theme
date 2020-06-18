@@ -105,6 +105,10 @@ li.selected a{
 }
 #jseditorSidebar{
     height: auto;
+    min-height: 550px;
     max-height: 700px;
-    max-width: 450px;
+    max-width: 500px;
+}
+.tox-tinymce{
+    height: 500px !important;
 }
