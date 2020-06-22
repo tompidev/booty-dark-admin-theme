@@ -75,17 +75,25 @@ li.selected a{
     width: fit-content;
     margin: auto;
 }
-.top-icon-light{
+.control-icon-light{
     background-color: transparent;
 }
-.top-icon-light i{
+.control-icon-light i{
     color: #343A40;
 }
-.top-icon-dark{
+.control-icon-light i:hover{
+    color: #52b3d0;
+    transition: all 0.2s;
+}
+.control-icon-dark{
     background-color: transparent;
 }
-.top-icon-dark i{
+.control-icon-dark i{
     color: #ececec;
+}
+.control-icon-dark i:hover{
+    color: #52b3d0;
+    transition: all 0.2s;
 }
 .separator{
     width: 1px;
@@ -110,5 +118,5 @@ li.selected a{
     max-width: 500px;
 }
 .tox-tinymce{
-    height: 500px !important;
+    min-height: 500px !important;
 }
