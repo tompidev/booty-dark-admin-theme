@@ -108,3 +108,33 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 Yes! I still have a lot of ideas waiting to be implemented. 
 To access future updates, visit [my GitHub releases page](https://github.com/JTWebTools/booty-dark-admin-theme/releases) or the [Bludit Themes page](https://themes.bludit.com/). 
 Check the current release of Booty Dark Admin on the Plugins page or on plugin settings page.
+
+------
+
+### Release Notes
+
+##### v1.0.3 (22-6-2020)
+
+* the color of the control icon changes as the mouse rolls over an icon
+* correcting TinyMce "*height*" value to "*min-height*" due to the heights of full screen mode
+* bug fixes
+
+
+
+##### v1.0.2 (16-5-2020)
+
+* first publicated stable release
+* adjustments of editor sidebar dimensions
+* fixed TinyMce "*height*" value
+
+
+
+##### v1.0.1 (10-6-2020)
+
+* improvements
+
+
+
+##### v1.0.0 (01-6-2020)
+
+* initial release
