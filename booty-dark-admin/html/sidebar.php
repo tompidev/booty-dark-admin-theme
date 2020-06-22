@@ -8,26 +8,26 @@
     <div id="control-icons" class="sidebar-footer">
         <div id="titletext" class="icon-hint"></div>
         <div class="list-group list-group-horizontal-sm top-icons">
-            <span class="list-group-item px-2 py-0 border-0 text-center top-icon-dark">
+            <span class="list-group-item px-2 py-0 border-0 text-center control-icon-dark">
                 <a id="edit-user" href="<?php $logged = new Login; echo HTML_PATH_ADMIN_ROOT.'edit-user/'. $logged->username() ?>">
                     <i class="fa fa-user fa-2x d-none d-xl-block" aria-hidden="true"></i>
                     <i class="fa fa-user fa-sm d-xl-none" aria-hidden="true"></i>
                 </a>
             </span>
-            <span class="list-group-item px-2 py-0 border-0 text-center top-icon-dark">
+            <span class="list-group-item px-2 py-0 border-0 text-center control-icon-dark">
                 <a id="logout" href="<?php echo HTML_PATH_ADMIN_ROOT.'logout' ?>">
                     <i class="fa fa-arrow-circle-right fa-2x d-none d-xl-block" aria-hidden="true"></i>
                     <i class="fa fa-arrow-circle-right fa-sm d-xl-none" aria-hidden="true"></i>
                 </a>
             </span>
             <span class="separator mx-2 py-3 text-muted"></span>
-            <span class="list-group-item px-2 py-0 border-0 text-center top-icon-dark">
+            <span class="list-group-item px-2 py-0 border-0 text-center control-icon-dark">
                 <a id="dashboard" href="<?php echo HTML_PATH_ADMIN_ROOT.'dashboard' ?>">
                     <i class="fa fa-dashboard fa-2x d-none d-xl-block" aria-hidden="true"></i>
                     <i class="fa fa-dashboard fa-sm d-xl-none" aria-hidden="true"></i>
                 </a>
             </span>
-            <span class="list-group-item px-2 py-0 border-0 text-center top-icon-dark">
+            <span class="list-group-item px-2 py-0 border-0 text-center control-icon-dark">
                 <a id="website" target="_blank" href="<?php echo HTML_PATH_ROOT ?>">
                     <i class="fa fa-home fa-2x d-none d-xl-block" aria-hidden="true"></i>
                     <i class="fa fa-home fa-sm d-xl-none" aria-hidden="true"></i>
