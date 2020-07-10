@@ -83,7 +83,7 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 
 ### Demo
 
-[Click here...](https://github.com/JTWebTools/booty-dark-admin-theme/tree/master/images)
+[Click here...](https://github.com/JTWebTools/booty-dark-admin-theme/blob/master/demo/demo.md)
 
 ------
 
