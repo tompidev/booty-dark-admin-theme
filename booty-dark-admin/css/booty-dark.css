@@ -12,10 +12,38 @@ html {
     font-size: 1.4rem;
     margin-right: 0.25em;
 }
+#sidenav{
+    padding-bottom: 6rem;
+}
 .sidebar{
-    /* color: #ececec; */
     position: fixed;
     height: 100vh;
+
+    /* sidebar scrollbar properties on firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #adadad #ECECEC;
+}
+/* sidebar scrollbar properties on chrome */
+.sidebar:hover{
+    overflow-y:auto;
+}
+.sidebar::-webkit-scrollbar{
+    width: 5px;
+}
+/* Track */
+.sidebar::-webkit-scrollbar-track{
+    background: #ECECEC;
+}
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb{
+    background: #adadad;
+}
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover{
+    background: #a3a3a3;
+}
+.sidebar-badge{
+    line-height: 1.15rem;
 }
 .sidebar li.nav-item{
     line-height: 1.6em;
@@ -23,6 +51,8 @@ html {
 .sidebar-dark{
     background-color: #343A40;
     color: #ececec;
+    overflow: auto;
+    overflow-x: hidden;
 }
 .sidebar-dark .nav-link{
     color: #F8F9FA;
@@ -37,6 +67,8 @@ html {
 .sidebar-light{
     background-color: #F8F9FA;
     color: #343A40;
+    overflow: auto;
+    overflow-x: hidden;
 }
 .sidebar-light .nav-link{
     color: #4e4e4e;
@@ -53,13 +85,6 @@ html {
 li.selected a{
     border-left: 5px solid #52b3d0;
 }
-.sidebar-footer{
-    height: 65px;
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    bottom: 0;
-    }
 .admin-logo{
     font-size: 1.45em;
     text-align: center;
@@ -70,28 +95,42 @@ li.selected a{
 .admin-logo-light{
     background-color: #e4e4e4;
 }
-.top-icons{
+.control-icons-top{
+    height: 70px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    }
+.control-icons-bottom{
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 16.6667%;
+    }
+.control-icons{
     background-color: transparent;
-    width: fit-content;
+    width: -moz-max-content;
+    width: -webkit-max-content;
     margin: auto;
 }
-.control-icon-light{
+.control-icons-light{
     background-color: transparent;
 }
-.control-icon-light i{
+.control-icons-light i{
     color: #343A40;
 }
-.control-icon-light i:hover{
+.control-icons-light i:hover{
     color: #52b3d0;
     transition: all 0.2s;
 }
-.control-icon-dark{
+.control-icons-dark{
     background-color: transparent;
 }
-.control-icon-dark i{
+.control-icons-dark i{
     color: #ececec;
 }
-.control-icon-dark i:hover{
+.control-icons-dark i:hover{
     color: #52b3d0;
     transition: all 0.2s;
 }
@@ -101,9 +140,10 @@ li.selected a{
 }
 .icon-hint{
     background-color: transparent;
-    height: 15px;
+    height: 22px;
     line-height: 1em;
     text-align: center;
+    padding-top: 3px;
 }
 .icon-hint-light{
     color: #343A40;
