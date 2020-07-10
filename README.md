@@ -113,6 +113,25 @@ Check the current release of Booty Dark Admin on the Plugins page or on plugin s
 
 ### Release Notes
 
+##### v1.1.0 Build 312 (10-7-2020)
+
+###### Improvements:
+
+* implementing a scroll bar into the sidebar because menu items was not visible on a narrower screen
+* fixing control icons group at the top of the sidebar if the sidebar is scrollable
+* fixing control icons group at the bottom of the sidebar if the sidebar is scrollable
+* some bug fixes and code changes
+
+###### Others
+
+* from now a new release number is in use supplemented with a Build number
+* tested on up to date Google Chrome (Edge too) and Firefox
+* adding URL to the developers name in the Footer text
+
+###### Known issues:
+
+* In Firefox, if the group of control icons is pinned to the bottom of the sidebar (the sidebar becomes scrollable), the scrollbar scrolls behind the area of the icons group
+
 ##### v1.0.3 (22-6-2020)
 
 * the color of the control icon changes as the mouse rolls over an icon
