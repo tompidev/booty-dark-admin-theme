@@ -45,7 +45,6 @@
 </head>
 
 <body>
-
     <!-- Plugins -->
     <?php Theme::plugins('adminBodyBegin') ?>
 
@@ -73,13 +72,14 @@
         <div class="row">
             <!-- LEFT SIDEBAR - Display only on large devices -->
             <nav id="sidebar" class="col-lg-2 d-none d-lg-block sidebar px-0 sidebar-dark selected-dark">
-                <div class="sidebar-sticky h-100">
+                <div class="h-100">
                     <?php include('html/sidebar.php'); ?>
                 </div>
             </nav>
             <!-- RIGHT MAIN -->
-            <main role="main" class="col ml-sm-auto col-lg-10 px-4 pt-3">
-                <div class="card mb-3 shadow-sm">
+            <main role="main" class="col ml-sm-auto col-lg-10 px-0">
+                <?php //include('html/desktop-navbar.php'); ?>
+                <div class="card mx-4 mt-4 shadow-sm px-4 pt-3">
                     <div class="card-body">
                         <?php
                         if (Sanitize::pathFile(PATH_ADMIN_VIEWS, $layout['view'] . '.php')) {
@@ -95,13 +95,13 @@
                 <?php 
                 if(Theme::lang()==='hu'){
                     $footerPowered ='Működteti: ';
-                    $footerDev =' Booty Dark Admin sablon a JT Webtools fejlesztésében';
+                    $footerDev =' Booty Dark Admin sablon a <a href="https://github.com/JTWebTools" target="_blank" title="JT WebTools weboldalának meglátogatása">JT Webtools</a> fejlesztésében';
                 }else if(Theme::lang()==='de'){
                     $footerPowered ='Unterstützt von ';
-                    $footerDev =' Booty Dark Admin Theme von JT Webtools';
+                    $footerDev =' Booty Dark Admin Theme von <a href="https://github.com/JTWebTools" target="_blank" title="Besuchen Sie die Website von JT WebTools">JT Webtools</a></a>';
                 }else{
                     $footerPowered = 'Powered by';
-                    $footerDev ='Booty Dark Admin Theme by JT Webtools';
+                    $footerDev ='Booty Dark Admin Theme by <a href="https://github.com/JTWebTools" target="_blank" title="Visit on JT Webtools\'s website">JT Webtools</a>';
                 }
                 ?>
                 <div id="adminFooterInfo" class="text-center border-top my-5 pt-3">
