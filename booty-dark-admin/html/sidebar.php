@@ -40,7 +40,7 @@
     <!-- content menu items for other users -->
 	<?php if (!checkRole(array('admin'),false)): ?>
 	<li class="nav-item mt-3">
-		<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'new-content' ?>"><span style="color: #52b3d0;" class="fa fa-plus-circle"></span><?php $L->p('New content') ?></a>
+		<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'new-content' ?>"><span class="fa fa-plus-circle new-content-icon"></span><?php $L->p('New content') ?></a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'content' ?>"><span class="fa fa-archive"></span><?php $L->p('Content') ?></a>
@@ -56,7 +56,7 @@
 		<h4 class=" ml-3"><?php $L->p('Manage') ?></h4>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'new-content' ?>"><span style="color: #52b3d0;" class="fa fa-plus-circle"></span><?php $L->p('New content') ?></a>
+		<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'new-content' ?>"><span class="fa fa-plus-circle new-content-icon"></span><?php $L->p('New content') ?></a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'content' ?>"><?php $L->p('Content') ?>
