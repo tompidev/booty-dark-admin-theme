@@ -1,7 +1,7 @@
 # Booty Dark Admin (Theme)
 ### What is Booty Dark Admin theme?
 
-Booty Dark Admin is an Admin Theme for Bludit Flat-file CMS.
+Booty Dark Admin (BDA) is an Admin Theme for Bludit Flat-file CMS.
 
 Booty Dark Admin allows you to change individual elements of the admin sidebar and the Right Main pane.
 
@@ -44,6 +44,14 @@ These option are only available through [this add-on plugin](https://github.com/
 * **Control icons**
 
   Some original sidebar items have been removed and can be navigated using icons instead.
+  
+* **Custom coloring**
+
+  Some items ion the Sidebar is colored. Now you can choose a color for this items to make your sidebar more customised.
+
+* **Sidebar menu item**
+
+  Option to choose between Show or Hide the menu item. Recommended displaying the menu item to a quickly access to the BDA settings page.
 
 ------
 
@@ -56,7 +64,9 @@ Here you can see the different what you get if you install the add-on plugin
 | **Sidebar color** |      Dark       |            Dark or Light            |
 | **Badges**        | Only on sidebar | Sidebar, Content page, both or hide |
 | **Footer info**   |    Displayed    |           Display or hide           |
-| **Contol icons**  |     Bottom      |            Top or Bottom            |
+| **Contol icons**  |     Bottom      |            Top or Bottom           |
+| **Custom coloring** | Default color | Default, Red, Green, Blue, Yellow, Orange, Purple |
+| **BDA Sidebar Item** | Not available | Display or Hide |            |
 
 ------
 
@@ -82,6 +92,10 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 ------
 
 ### Demo
+
+In the demo you can view what is changed. All these changes is without the add-on plugin.
+
+If you want more functions, you have to install [this add-on plugin](https://github.com/JTWebTools/booty-dark-admin-plugin).
 
 [Click here...](https://github.com/JTWebTools/booty-dark-admin-theme/blob/master/demo/demo.md)
 
@@ -112,6 +126,11 @@ Check the current release of Booty Dark Admin on the Plugins page or on plugin s
 ------
 
 ### Release Notes
+
+##### v1.1.1 Build 3131 (05-8-2020)
+
+* some changes in the code due to add-on plugin improvements
+* bug fixes
 
 ##### v1.1.0 Build 312 (10-7-2020)
 
