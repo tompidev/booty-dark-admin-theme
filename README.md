@@ -5,7 +5,7 @@ Booty Dark Admin (BDA) is an Admin Theme for Bludit Flat-file CMS.
 
 Booty Dark Admin allows you to change individual elements of the admin sidebar and the Right Main pane.
 
-There is also an add-on plugin to help you to change individual elements of your new admin theme. This plugin is not necessary but recommended. [See comparison below](https://github.com/JTWebTools/booty-dark-admin-theme#comparison-of-features).
+There is also an add-on plugin to help you to change individual elements of your new admin theme. This plugin is not necessary but recommended. [See comparison below](https://github.com/tompidev/booty-dark-admin-theme#comparison-of-features).
 
 No other add-ons are required to use the template.
 
@@ -27,7 +27,7 @@ It can be said that the image of the whole admin page has changed. For example:
 
 ### Options available 
 
-These option are only available through [this add-on plugin](https://github.com/JTWebTools/booty-dark-admin-plugin)!
+These option are only available through [this add-on plugin](https://github.com/tompidev/booty-dark-admin-plugin)!
 
 * **Sidebar color** 
 
@@ -85,7 +85,7 @@ Here you can see the different what you get if you install the add-on plugin
   - after successfully install go to ***bl-content / databases*** folder and open ***site.php*** file with a text editor (such as notepad). 
   - Search in the file the ***adminTheme*** string for and change its value to ***booty-dark-admin***
 - **Just one more thing!**
-  - You do not need to use the add-on plugin but recommended. To use the plugin you have to separately install and activate it. [Learn more...](https://github.com/JTWebTools/booty-dark-admin-plugin)
+  - You do not need to use the add-on plugin but recommended. To use the plugin you have to separately install and activate it. [Learn more...](https://github.com/tompidev/booty-dark-admin-plugin)
 
 That's all. You have successfully installed the new administrator theme! Enjoy it! :)
 
@@ -95,9 +95,9 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 
 In the demo you can view what is changed. All these changes is without the add-on plugin.
 
-If you want more functions, you have to install [this add-on plugin](https://github.com/JTWebTools/booty-dark-admin-plugin).
+If you want more functions, you have to install [this add-on plugin](https://github.com/tompidev/booty-dark-admin-plugin).
 
-[Click here...](https://github.com/JTWebTools/booty-dark-admin-theme/blob/master/demo/demo.md)
+[Click here...](https://github.com/tompidev/booty-dark-admin-theme/blob/master/demo/demo.md)
 
 ------
 
@@ -105,7 +105,7 @@ If you want more functions, you have to install [this add-on plugin](https://git
 
 **Q:**	I have the package installed successfully but i can't see the new theme. Why?
 
-​	**A:**	You have to change the admin theme in your sites database. Plaese read the "[Installing and changing admin theme to Booty Dark Admin](https://github.com/JTWebTools/booty-dark-admin-theme#installing-and-changing-admin-theme-to-booty-dark-admin)" section again.
+​	**A:**	You have to change the admin theme in your sites database. Plaese read the "[Installing and changing admin theme to Booty Dark Admin](https://github.com/tompidev/booty-dark-admin-theme#installing-and-changing-admin-theme-to-booty-dark-admin)" section again.
 
 **Q:**	How can i disable this theme?
 
@@ -120,7 +120,7 @@ If you want more functions, you have to install [this add-on plugin](https://git
 ### Is further development expected?
 
 Yes! I still have a lot of ideas waiting to be implemented. 
-To access future updates, visit [my GitHub releases page](https://github.com/JTWebTools/booty-dark-admin-theme/releases) or the [Bludit Themes page](https://themes.bludit.com/). 
+To access future updates, visit [my GitHub releases page](https://github.com/tompidev/booty-dark-admin-theme/releases) or the [Bludit Themes page](https://themes.bludit.com/). 
 Check the current release of Booty Dark Admin on the Plugins page or on plugin settings page.
 
 ------
