@@ -105,7 +105,6 @@
 	</li>
 
 	<?php endif; ?>
-<?php //echo $users->role() ?>
 	<?php if (checkRole(array('admin', 'editor'),false)): ?>
 
 		<?php

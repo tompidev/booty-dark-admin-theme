@@ -36,7 +36,7 @@
         'jquery.datetimepicker.full.min.js',
         'select2.full.min.js',
         'functions.js'
-    ), DOMAIN_CORE_JS);
+    ), DOMAIN_CORE_JS, null);
     ?>
 
     <!-- Plugins -->
@@ -95,13 +95,13 @@
                 <?php 
                 if(Theme::lang()==='hu'){
                     $footerPowered ='Működteti: ';
-                    $footerDev =' Booty Dark Admin sablon a <a href="https://github.com/JTWebTools" target="_blank" title="JT WebTools weboldalának meglátogatása">JT Webtools</a> fejlesztésében';
+                    $footerDev =' Booty Dark Admin sablon a <a href="https://github.com/tompidev" target="_blank" title="Tompi Developments weboldalának meglátogatása">Tompi Developments</a> fejlesztésében';
                 }else if(Theme::lang()==='de'){
                     $footerPowered ='Unterstützt von ';
-                    $footerDev =' Booty Dark Admin Theme von <a href="https://github.com/JTWebTools" target="_blank" title="Besuchen Sie die Website von JT WebTools">JT Webtools</a></a>';
+                    $footerDev =' Booty Dark Admin Theme von <a href="https://github.com/tompidev" target="_blank" title="Besuchen Sie die Website von Tompi Developments">Tompi Developments</a></a>';
                 }else{
                     $footerPowered = 'Powered by';
-                    $footerDev ='Booty Dark Admin Theme by <a href="https://github.com/JTWebTools" target="_blank" title="Visit on JT Webtools\'s website">JT Webtools</a>';
+                    $footerDev ='Booty Dark Admin Theme by <a href="https://github.com/tompidev" target="_blank" title="Visit on Tompi Developments\'s website">Tompi Developments</a>';
                 }
                 ?>
                 <div id="adminFooterInfo" class="text-center border-top my-5 pt-3">
