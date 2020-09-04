@@ -1,0 +1,34 @@
+{
+	"bdaTheme": {
+		"package": "Booty Dark Admin (BDA) Theme",
+		"versionAlert": 0,
+		"version": "1.1.3",
+		"build": "3131",
+		"releaseDate": "2020-08-31",
+		"downloadLink": "https:\/\/github.com\/tompidev\/booty-dark-admin-theme\/archive\/v1.1.3.zip",
+		"downloadMirrorLink": "",
+		"changelogLink": "https:\/\/github.com\/tompidev\/booty-dark-admin-theme\/releases",
+		"github": "https:\/\/github.com\/tompidev",
+		"blog": "",
+		"changelog": [
+			{
+				"action": "Improvements",
+				"items": [
+					"new: integration of the upgrade system"
+				]
+			},
+			{
+				"action": "Fixes",
+				"items": [
+					"some bug fixes"
+				]
+			},
+			{
+				"action": "Known issues",
+				"items": [
+					"In Firefox, if the group of control icons is pinned to the bottom of the sidebar (the sidebar becomes scrollable), the scrollbar scrolls behind the area of the icons group"
+				]
+			}
+		]
+	}
+}
