@@ -4,6 +4,7 @@ html, body{
 }
 html {
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .fa-sm{
     font-size: 1.4rem;
