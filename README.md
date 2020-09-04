@@ -95,9 +95,14 @@ That's all. You have successfully installed the new administrator theme! Enjoy i
 
 In the demo you can view what is changed. All these changes is without the add-on plugin.
 
-If you want more functions, you have to install [this add-on plugin](https://github.com/tompidev/booty-dark-admin-plugin).
+To accessing the demo admin interface, here is your login data:
 
-[Click here...](https://github.com/tompidev/booty-dark-admin-theme/blob/master/demo/demo.md)
+**User**: DemoUser 
+**Password**: Demo123
+
+[To visit demo site click here...](http://demo.tompidev.com/admin)
+
+If you want more functions, you have to install [this add-on plugin](https://github.com/tompidev/booty-dark-admin-plugin).
 
 ------
 
@@ -126,6 +131,20 @@ Check the current release of Booty Dark Admin on the Plugins page or on plugin s
 ------
 
 ### Release Notes
+
+##### v1.1.3 (31-8-2020)
+
+* :new: integration of the upgrade system
+* code updating
+
+- some bug fixes and code changes
+- updating language files
+
+##### v1.1.2 Build (16-8-2020)
+
+* some changes in the code due to add-on plugin improvements
+* bug fixes
+* updating language files
 
 ##### v1.1.1 Build 3131 (05-8-2020)
 
