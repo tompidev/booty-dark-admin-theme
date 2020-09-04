@@ -1,3 +1,15 @@
+<?php
+/**
+ *  @package        :  Booty Dark Admin theme
+ *  @author         :  Tompidev
+ *  @website        :  https://github.com/tompidev
+ *  @email          :  support@tompidev.com
+ *  @license        :  MIT
+ *
+ *  @last-modified  :  2020-09-04 15:24:11 CET
+ *  @release        :  1.1.3
+ **/
+?>
 <!DOCTYPE html>
 <html>
 
@@ -78,8 +90,7 @@
             </nav>
             <!-- RIGHT MAIN -->
             <main role="main" class="col ml-sm-auto col-lg-10 px-0">
-                <?php //include('html/desktop-navbar.php'); ?>
-                <div class="card mx-4 mt-4 shadow-sm px-4 pt-3">
+                <div class="card mx-4 my-4 shadow-sm px-4 pt-3">
                     <div class="card-body">
                         <?php
                         if (Sanitize::pathFile(PATH_ADMIN_VIEWS, $layout['view'] . '.php')) {
@@ -92,31 +103,81 @@
                     </div>
                 </div>
                 <!-- Footer info on all admin pages -->
-                <?php 
-                if(Theme::lang()==='hu'){
-                    $footerPowered ='Működteti: ';
-                    $footerDev =' Booty Dark Admin sablon a <a href="https://github.com/tompidev" target="_blank" title="Tompi Developments weboldalának meglátogatása">Tompi Developments</a> fejlesztésében';
-                }else if(Theme::lang()==='de'){
-                    $footerPowered ='Unterstützt von ';
-                    $footerDev =' Booty Dark Admin Theme von <a href="https://github.com/tompidev" target="_blank" title="Besuchen Sie die Website von Tompi Developments">Tompi Developments</a></a>';
-                }else{
+                <?php
+                if (Theme::lang() === 'hu') {
+                    $footerPowered = 'Működteti: ';
+                    $footerDev = ' Booty Dark Admin sablon a <a href="https://tompidev.com/" target="_blank" title="TompiDev weboldalának meglátogatása">TompiDev</a> fejlesztésében';
+                } else if (Theme::lang() === 'de') {
+                    $footerPowered = 'Unterstützt von ';
+                    $footerDev = ' Booty Dark Admin Theme von <a href="https://tompidev.com/" target="_blank" title="Besuchen Sie die Website von TompiDev">TompiDev</a></a>';
+                } else {
                     $footerPowered = 'Powered by';
-                    $footerDev ='Booty Dark Admin Theme by <a href="https://github.com/tompidev" target="_blank" title="Visit on Tompi Developments\'s website">Tompi Developments</a>';
+                    $footerDev = 'Booty Dark Admin Theme by <a href="https://tompidev.com/" target="_blank" title="Visit on TompiDev\'s website">TompiDev</a>';
                 }
                 ?>
-                <div id="adminFooterInfo" class="text-center border-top my-5 pt-3">
+                <div id="adminFooterInfo" class="text-center border-top mb-4 mt-3 pt-4">
                     <p><?php echo $footerPowered ?>
                         <a target="_blank" href="https://bludit.com">
                             <?php echo (defined('BLUDIT_PRO')) ? 'BLUDIT PRO' : 'BLUDIT' ?>
                         </a>
                         <img src="<?php echo HTML_PATH_CORE_IMG ?>logo.svg" width="20" height="20" alt="bludit">
-                        <?php echo $L->g('version') .': '. BLUDIT_VERSION ?>
-                         -- <?php echo $footerDev ?>
+                        <?php echo $L->g('version') . ': ' . BLUDIT_VERSION ?>
+                        -- <?php echo $footerDev ?>
                     </p>
                 </div>
             </main>
         </div>
     </div>
+
+    <!-- Update check for BDA Theme -->
+    <?php include('html/updatecheck.php'); ?>
+
+    <!-- Modal for new BDA Theme release notes -->
+    <div class="modal fade" id="bdaThemeVersionModal" tabindex="-1" aria-labelledby="bdaThemeVersionModal" aria-hidden="true" style="z-index: 100000;">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><?php echo $L->g('Release Notes') ?></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div calss="container">
+                            <div class="row">
+                                <div class="col-5 font-weight-bold"><?php echo $L->g('Package') ?>:</div>
+                                <div id="themePackageName"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5 font-weight-bold"><?php echo $L->g('Current version') ?>:</div>
+                                <div id="themeCurrentVersion"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5 font-weight-bold"><?php echo $L->g('New version') ?>:</div>
+                                <div id="themeNewVersion"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5 font-weight-bold"><?php echo $L->g('Release date') ?>:</div>
+                                <div id="themeReleaseDate"></div>
+                            </div>
+                    </div>
+                    <div id="releaseNotes" class="mt-3 pt-3 border-top"></div>
+                    <div id="usufelLinks" class="mt-3 pt-3 border-top">
+                    <h5><?php echo $L->g('Useful Links') ?></h5>
+                        <a href="http://demo.tompidev.com/" target="_blank">Demo website<span class="fa fa-external-link ml-2"></span></a>(<?php echo $L->g('Try Tompidev plugins and themes') ?>)<br>
+                        <a href="https://tompidev.com/" target="_blank">Developer's website<span class="fa fa-external-link ml-2"></span></a>(<?php echo $L->g('All plugins and themes from Tompidev') ?>)
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a id="downloadBdaThemeLink" class="btn btn-primary" href="" target="_blank"><i class="fa fa-download"></i><?php echo $L->g('Download release') ?></a>
+                    <a id="changelogBdaThemeLink" class="btn btn-primary" href="" target="_blank"><i class="fa fa-info-circle"></i><?php echo $L->g('Changelog') ?></a>
+                    <a id="github" class="btn btn-primary" href="" target="_blank"><i class="fa fa-github"></i>Github</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><?php echo $L->g('Close') ?></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Plugins -->
     <?php Theme::plugins('adminBodyEnd') ?>
 
