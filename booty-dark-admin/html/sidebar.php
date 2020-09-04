@@ -2,8 +2,8 @@
 	<div class="admin-logo admin-logo-dark shadow-sm py-2 mb-1">
         <img src="<?php echo HTML_PATH_CORE_IMG ?>logo.svg" width="35" height="35" alt="bludit-logo">
         <span class="ml-2 align-middle"><?php echo (defined('BLUDIT_PRO'))?'BLUDIT PRO':'BLUDIT' ?></span>
-	</div>
-   
+    </div>
+
     <!-- control icons displayed by the choosen position top or bottom -->
     <div id="control-icons" class="border-top bg-dark control-icons-bottom">
         <div id="titletext" class="icon-hint"></div>
@@ -51,7 +51,7 @@
 	<?php endif; ?>
 
     <!-- content menu items for admin users -->
-	<?php if (checkRole(array('admin'),false)): ?>   
+	<?php if (checkRole(array('admin'),false)): ?>
     <li class="mt-4 mr-3 mb-2 border-bottom">
 		<h4 class=" ml-3"><?php $L->p('Manage') ?></h4>
 	</li>
@@ -67,7 +67,7 @@
                   (count($pages->getStickyDB()))+
                   (count($pages->getScheduledDB()))+
                   (count($pages->getDraftDB()))
-                  ); 
+                  );
               ?>
            </span>
        </a>
@@ -86,7 +86,7 @@
               <?php print count($users->keys()); ?>
            </span></a>
 	</li>
-    
+
     <!-- settings menu items -->
 	<li class="mt-4 mr-3 mb-2 border-bottom">
 		<h4 class=" ml-3"><?php $L->p('Settings') ?></h4>
@@ -118,11 +118,13 @@
 			}
 		?>
 
+    <!-- Alert text about the new BDA Theme version -->
+    <a id="newBDAThemeAlert" data-toggle="modal" data-target="#bdaThemeVersionModal" class="btn nav-link d-none" style="color: orange;"><?php $L->p('New BDA theme version is available!') ?></a>
 	<?php endif; ?>
 </ul>
-        
+
 <script>
-// Preparing selected menu item 
+// Preparing selected menu item
 var url = window.location;
 $('ul.nav a').filter(function() {
     return this.href == url;
