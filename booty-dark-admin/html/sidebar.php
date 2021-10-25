@@ -109,7 +109,7 @@
 
 		<?php
 			if (!empty($plugins['adminSidebar'])) {
-				echo '<li class="mt-4 mr-3 mb-2 border-bottom"><h4 class=" ml-3">'.$L->g('Plugins').'</li>';
+				echo '<li class="mt-4 mr-3 mb-2 border-bottom"><h4 class=" ml-3">'.$L->g('Plugins').'</h4></li>';
 				foreach ($plugins['adminSidebar'] as $pluginSidebar) {
 					echo '<li class="nav-item">';
 					echo $pluginSidebar->adminSidebar();
