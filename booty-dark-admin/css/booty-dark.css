@@ -158,9 +158,10 @@ li.selected a{
     max-height: 700px;
     max-width: 500px;
 }
-.tox-tinymce{
-    min-height: 500px !important;
-}
 .new-content-icon{
     color: #52b3d0;
+}
+/* v1.1.4 */
+.tox-tinymce{
+    min-height: 80vh !important;
 }
