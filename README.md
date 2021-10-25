@@ -132,6 +132,12 @@ Check the current release of Booty Dark Admin on the Plugins page or on plugin s
 
 ### Release Notes
 
+##### v1.1.4 (25-10-2021)
+
+Fixes:
+* TinyMCE text area height fix (css)
+* Sidebar missing /h4 tag
+
 ##### v1.1.3 (31-8-2020)
 
 * :new: integration of the upgrade system
