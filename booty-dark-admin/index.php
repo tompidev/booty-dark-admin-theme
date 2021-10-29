@@ -93,11 +93,13 @@
                 <div class="card mx-4 my-4 shadow-sm px-4 pt-3">
                     <div class="card-body">
                         <?php
-                        if (Sanitize::pathFile(PATH_ADMIN_VIEWS, $layout['view'] . '.php')) {
-                            include(PATH_ADMIN_VIEWS . $layout['view'] . '.php');
+                        if (Sanitize::pathFile(PATH_ADMIN_VIEWS, $layout['view'].'.php')) {
+                            include(PATH_ADMIN_VIEWS.$layout['view'].'.php');
+                        } elseif ($layout['plugin'] && method_exists($layout['plugin'], 'adminView')) {
+                            echo $layout['plugin']->adminView();
                         } else {
-                            echo '<h1 class="text-center">' . $L->g('Page not found') . '</h1>';
-                            echo '<h2 class="text-center">' . $L->g('Choose a page from the sidebar.') . '</h2>';
+                            echo '<h1 class="text-center">'.$L->g('Page not found').'</h1>';
+                            echo '<h2 class="text-center">'.$L->g('Choose a page from the sidebar.').'</h2>';
                         }
                         ?>
                     </div>
