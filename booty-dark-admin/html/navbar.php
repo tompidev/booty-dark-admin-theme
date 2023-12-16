@@ -48,7 +48,6 @@
 					<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'about' ?>">
 						<?php $L->p('About') ?></a>
 				</li>
-			<?php endif; ?>
 			<?php if (checkRole(array('admin'),false)): ?>
 				<?php
 				if (!empty($plugins['adminSidebar'])) {
