@@ -128,9 +128,3 @@ Yes! I still have a lot of ideas waiting to be implemented.
 To access future updates, visit [my GitHub releases page](https://github.com/tompidev/booty-dark-admin-theme/releases) or the [Bludit Themes page](https://themes.bludit.com/). 
 Check the current release of Booty Dark Admin on the Plugins page or on plugin settings page.
 
-
-
-
-##### v1.0.0 (01-6-2020)
-
-* initial release
