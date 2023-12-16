@@ -6,8 +6,8 @@
  *  @email          :  support@tompidev.com
  *  @license        :  MIT
  *
- *  @last-modified  :  2020-09-04 15:17:16 CET
- *  @release        :  1.1.3
+ *  @last-modified  :  2023-12-16 09:17:16 CET
+ *  @release        :  1.1.6
  **/
 ?>
 
