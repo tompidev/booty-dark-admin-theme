@@ -48,6 +48,18 @@
 					<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'about' ?>">
 						<?php $L->p('About') ?></a>
 				</li>
+			<?php endif; ?>
+			<?php if (checkRole(array('admin'),false)): ?>
+				<?php
+				if (!empty($plugins['adminSidebar'])) {
+					foreach ($plugins['adminSidebar'] as $pluginSidebar) {
+						echo '<li class="nav-item">';
+						echo $pluginSidebar->adminSidebar();
+						echo '</li>';
+					}
+				}
+				?>
+			<?php endif; ?>
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo HTML_PATH_ADMIN_ROOT.'logout' ?>">
 						<?php $L->p('Logout') ?></a>
