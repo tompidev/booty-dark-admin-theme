@@ -2,9 +2,9 @@
 	"bdaTheme": {
 		"package": "Booty Dark Admin (BDA) Theme",
 		"versionAlert": 0,
-		"version": "1.1.4",
+		"version": "1.1.5",
 		"build": "3131",
-		"releaseDate": "2021-10-25",
+		"releaseDate": "2023-12-16",
 		"downloadLink": "https:\/\/github.com\/tompidev\/booty-dark-admin-theme\/releases",
 		"downloadMirrorLink": "",
 		"changelogLink": "https:\/\/github.com\/tompidev\/booty-dark-admin-theme\/releases",
@@ -20,13 +20,13 @@
 			{
 				"action": "Fixes",
 				"items": [
-					"TinyMCE text area height fix (css)", "Sidebar missing /h4 tag"
+					"Updated Navbar - Display Plugins list in Mobile Menu"
 				]
 			},
 			{
 				"action": "Known issues",
 				"items": [
-					"In Firefox, if the group of control icons is pinned to the bottom of the sidebar (the sidebar becomes scrollable), the scrollbar scrolls behind the area of the icons group"
+					"-"
 				]
 			}
 		]
